@@ -6,13 +6,27 @@
   <title>Projecto_01</title>
   <!-- Fonte Josefin Slab do Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
-  <!-- Styles -->
+   <!-- Fonte Jura do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
+  <!--link CSS-->
   <link href="styles.css" rel="stylesheet">
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-  <!-- Homepage Hero imagem -->
+  <!-- Header e Navbar -->
+   <header id="header" class="header">
+    <nav class="navbar">
+      <div class="nav-links">
+        <a href="#acomodação">Acomodação</a>
+        <a href="#locais">Locais</a>
+        <a href="#blog">Blog</a>
+        <a href="#sobre">Contactos</a>
+      </div>
+      </nav>
+   </header>
+
+  <!-- Homepage Hero imagem-->
     <div class="hero">
       <img src="Imagens/Hero.png" alt="Imagem Hero" class="hero-image">
       <h1 class="hero-title">LIVING AROUND</h1>
@@ -22,22 +36,51 @@
     <section class="hero-section">
         <div class="hero-container">
           <div class="hero-block">
-            <h1>Viva livre, trabalhe de qualquer lugar, descubra o mundo.</h1>
+            <p class="texto-viva-livre">
+             Viva <strong class="destaque">livre</strong>,trabalhe <br>
+             de qualquer lugar,<br>
+             descubra o mundo.
+            </p>
           </div>
-          <div class="hero-block">
-            <h2>Trabalhos remotos</h2>
+          <div class="linha-central"></div>
+          <div class="hero-block hero-block direito">
+            <div class="bloco-direito-conteudo">
+            <p class="texto-trabalhos-remotos">Trabalhos remotos</p>
+          
+          <div class="caixas-links">
+            <div class="caixa">
+              <ul>
+                <li><a href="#">Indeed</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">JobRemote</a></li>
+                <li><a href="#">GoogleJobs</a></li>
+              </ul>
+            </div>
+            <div class="caixa">
+              <ul>
+                <li><a href="#">Indeed</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">JobRemote</a></li>
+                <li><a href="#">GoogleJobs</a></li>
+              </ul>
           </div>
         </div>
+      </div>
+  </div>
+  </section>
+
     <!-- Homepage Secção Acomodação --> 
-    <section class="Secção-acomodação">
-    <div class="acomodação-container">
+    <section class="Secao-acomodacao">
       <div class="imagem-acomodacao">
-    <img src="Imagens/pexels-gya-den-768256-2303781 2.png" alt="caravana" class="imagem-acomodação">
+        <img src="Imagens/pexels-gya-den-768256-2303781 2.png" alt="caravana à beira mar">
       </div>
+
       <div class="acomodação-bloco">
-        <h1>Descubra o seu novo escritório</h1>
+        <p class="acomodacao-texto">Descubra o seu novo<br>escritório</p>
+        <a href="#acomodação" class="btn-descobrir">Descobrir</a>
       </div>
-    </div>
+    </section>
+
     <!-- Section Blog -->
     <!-- Section locais -->
     <!-- Section Acomodação -->

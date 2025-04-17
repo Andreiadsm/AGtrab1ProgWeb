@@ -1,35 +1,66 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* tipo de letra*/
+
 /* hero */
+.header {
+   position: absolute;
+   top: 0;
+   width: 100%;
+    z-index: 10;
+    padding: 0px 60px;
+    background: transparent; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+  background: transparent;
+} 
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: black;
+  font-family: 'Jura', sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+}
 
 .hero {
-    width: 1466px;
-    height: 816px;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .hero-image {
     width: 100%;
-    height: 816px;
+    height: 100%;
     object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
   }
   
   .hero-title {
     color: #FFFFFF;
     font-family: 'Josefin Slab', serif;
-    font-size: 85px;
+    font-size: 64px;
     font-weight: 700;
-    text-align: center;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 100%;
-    height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    font-weight: bold;
   }
 
   /* Secção hero */
@@ -57,23 +88,148 @@
     text-align: center;
   }
   
-    /* Secção acomodação */
-  .Secção-acomodação{
+  .texto-viva-livre {
+    font-family: 'Jura', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    width: 345px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .texto-viva-livre .destaque {
+    font-weight: 700;
+  }
+
+  .linha-central {
+    width:1px;
+    height: 345px;
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .hero-block-direito {
+    flex-direction: column;
     display: flex;
-    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bloco-direito-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto-trabalhos-remotos {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.18;
+    letter-spacing: 0;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .caixas-links {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .caixa {
+    display: flex;
+    width: 132px;
+    height: 96px;
+    background: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caixa ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .caixa li {
+    margin-bottom: 6px;
+  }
+  .caixa a {
+    color: black;
+    font-family: 'Jura', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+    /* Secção acomodação */
+  .Secao-acomodacao{
+    display: flex;
+    width: 100vw;
     height: 515px;
+    background-color: black;
+    padding: 0;
+    gap: 0;
+  }
+
+  .imagem-acomodacao {
+    flex: 0 0 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+    
+    .imagem-acomodacao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.acomodação-bloco {
+  flex: 0 0 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  gap: 20px;
+  color: #ffffff;
+}
+
+.acomodacao-texto {
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.18;
+  letter-spacing: 0;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.btn-descobrir {
+    font-family: 'Jura', sans-serif;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px 60px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
     margin: 0 auto;
-    top: 1385px;
-    background-color:black
-}
-    .imagem-acomodacao{
-    width: 740px;
-    height: 515px;
-    top: 1385px;
-}
-.acomodação-container{
-    width: 833px;
-    height: 515;
-    top: 1385px;
-    left: 607px;
 }
