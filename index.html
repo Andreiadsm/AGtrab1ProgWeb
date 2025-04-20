@@ -14,7 +14,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-
+  <a id="topo"></a>
   <!--Container Pai-->
   <div class="container-fluid main-container">
 
@@ -29,10 +29,10 @@
       </label>
       
       <div class="navbar-links">
-        <a href="#acomodacao">Acomodação</a>
+        <a href="pageacomodacao.html">Acomodação</a>
         <a href="#locais">Locais</a>
         <a href="#blog">Blog</a>
-        <a href="#sobre">Contactos</a>
+        <a href="pagecontactos.html">Contactos</a>
       </div>
     </nav>
    </header>
@@ -81,19 +81,22 @@
   </section>
 
     <!-- Homepage Secção Acomodação --> 
-    <section class="Secao-acomodacao">
+    <section id="acomodacao" class="Secao-acomodacao">
       <div class="imagem-acomodacao">
         <img src="Imagens/pexels-gya-den-768256-2303781 2.png" alt="caravana à beira mar">
       </div>
 
       <div class="acomodacao-bloco">
         <p class="acomodacao-texto">Descubra o seu novo<br>escritório</p>
-        <a href="#acomodacao" class="btn-descobrir">Descobrir</a>
+        <a href="pageacomodacao.html" class="btn-descobrir">Descobrir</a>
       </div>
+    <a href="#topo" class="seta-voltar-topo-direita">
+        <img src="Imagens/Arrow_Up-2.png" alt="seta voltar ao topo">
+      </a>
     </section>
 
     <!-- Homepage Secção Locais -->
-    <section class="Secao-locais">
+    <section id="locais" class="Secao-locais">
       <div class="Secao-locais-bloco">
         <p class="Secao-locais-texto">Temos destinos<br>especiais para você</p>
         <a href="#locais" class="btn-explorar">Explorar</a>
@@ -102,14 +105,21 @@
         <div class="Secao-locais-imagem">
           <img src="Imagens/pexels-thatguycraig000-1546898 2.png" alt="estrada na floresta">
         </div>
+    <a href="#topo" class="seta-voltar-topo-esquerda">
+          <img src="Imagens/Arrow_Up.png" alt="seta voltar ao topo">
+        </a>
     </section>
 
     <!-- Homepage Secção Blog -->
-    <section class="secao-blog">
+    <section id="blog" class="secao-blog">
       <div class="secao-blog-imagem">
-      <img src="Imagens/pexels-thepaintedsquare-583848 1.png" alt="imagem blog" class="imagem-blog">  
-      <a href="Blog" class="secao-blog-btn">Blog</a>
-    </div>
+        <img src="Imagens/pexels-thepaintedsquare-583848 1.png" alt="imagem blog" class="imagem-blog">  
+        <a href="blog" class="secao-blog-btn">Blog</a>
+  
+        <a href="#topo" class="seta-voltar-topo-direita">
+          <img src="Imagens/Arrow_Up.png" alt="seta voltar ao topo">
+        </a>
+      </div>
     </section>
 
     <!--footer-->
