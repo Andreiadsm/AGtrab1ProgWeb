@@ -4,148 +4,137 @@
   padding: 0;
   box-sizing: border-box;
 }
-#header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    padding:10px 40px;
-    background-color: rgba(255, 255, 255, 0);
+/*Header e Navbar*/
+.header {
+  position:relative;
+  width:100%;
+  max-width: 1470px;
+  height: 580px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header-img-container {
+  position: absolute;
+  top: -66px;
+  left: -100px;
+  width: 1640px;
+  height: 1157px;
+  z-index: -1;
+}
+
+  .header-img-container img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
   }
 
   .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 40px;
-    position: relative;
-    z-index: 10;
+  width: 100%;
+  z-index: 2;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0);
   }
-  
+
   .navbar-container {
-    width: 1278px;
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  width: 1278px;
+  max-width: 100%;;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   }
-  .navbar-logo img {
-    height: auto;
-    width: 40px;
-    margin-left: 30px;
+
+  .navbar-logo img{
+  height: 40px;
+  width: auto;
+  margin-left: 30px;
   }
+
   .navbar-links {
   display: flex;
   justify-content: flex-end;
-  gap: 20px;
+  align-items: center;
   }
-  
+
   .navbar-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Josefin Slab', sans-serif;
-    margin-right: 20px;;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 100%;
+  margin-right: 60px;
+  }
+  .navbar-links a:last-child {
+  margin-right: 0;
   }
   
-  /*Menu hamburguer*/
-  .menu-toggle {
-    display: none;
-  }
-  
-  .menu-icon {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-    position: absolute;
-    gap: 5px;
-    z-index: 1000;
-    position: absolute;
-    top: 20px;
-    right: 30px;
-  }
-  
-  .menu-icon span {
-    background-color: white;
-    height: 3px;
-    border-radius: 2px;
-  }
-
-  /*container com background imagem, bloco com dropdown btn bootstrap*/
-  .background-image {
-    position: absolute;
-    display: block;
-    width: 1440px;
-    height: 1024px;
-    object-fit: cover;
-    z-index:0;
-  }
-  .container {
+  /*container com blocos e botões*/
+  .form-container {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    height: 642px;
-    width: 466px;
-    margin: 0 auto;
-    top: 50%;
-    left: 0;
-    z-index: 1;
-  }
-
-  .dropdown-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 642px;
-    width: 466px;
-    border-radius: 35px;
     background-color: rgba(217, 217, 217, 1);
-    z-index: 2;
-  }
+    width: 466px;
+    max-height: 642px;
+    border-radius: 35px;
+    z-index: 100;
+    }
 
-  .dropdown-container p {
-    font-family: 'Jura', sans-serif;
-    font-size: 30px;
-    color: #000000;
-    margin-top: 50%;
-    margin-left: 50px;
-    padding: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-    font-weight: 400;
-    line-height: 1.18;
-  }
-
-  .dropdown-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    .bloco {
     background-color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-  }
-
-  .btn-default {
-    background-color: #000000;
-    color: white;
+    text-align: center;
+    max-width: 345px;
+    max-height: 76px;
+    padding: 20px;
+    margin-top: 30px;
+    justify-content: space-between;
     border-radius: 5px;
-    border: 2px solid #000000;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-family: 'Josefin Slab', sans-serif;
-    text-decoration: none;
-  }
+    z-index: 1000;
+    }
+
+    .botao-seta {
+    display: flex;
+    justify-items: flex-start;
+    color:black;
+    max-height: 76px;
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+    padding: 12px 90px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    }
+
+    .bloco2 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(104, 105, 49, 1);
+    font-family: 'Jura', sans-serif;
+    border: none;
+    z-index: 1000;
+    }
+
+    .botao-enviar {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    border: none;
+    padding: 12px 90px;
+    padding-top: 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    background-color: rgba(104, 105, 49, 1);
+    }
+
+
+
+
 
 
 
