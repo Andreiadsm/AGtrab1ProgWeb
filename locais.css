@@ -4,143 +4,129 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: 100%;
+  font-family: 'Jura', serif;
+}
+
 /*Header e Navbar*/
 .header {
-  position:relative;
-  width:100%;
-  max-width: 1470px;
-  height: 580px;
-  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 1024px;
   overflow: hidden;
 }
 
-.header-img-container {
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   position: absolute;
-  top: -66px;
-  left: -100px;
-  width: 1640px;
-  height: 1157px;
   z-index: -1;
 }
 
-  .header-img-container img {
-      width: 100%;
-      height: 100%;
-      display: block;
-      object-fit: cover;
-  }
-
-  .navbar {
-  width: 100%;
-  z-index: 2;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0);
-  }
-
-  .navbar-container {
-  width: 1278px;
-  max-width: 100%;;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  }
-
-  .navbar-logo img{
+.logo {
   height: 40px;
   width: auto;
-  margin-left: 30px;
+  object-fit: contain;
+  position: relative;
+  z-index: 15
+}
+  .navbar {
+  position: absolute;
+  width: 100%;
+  top: 38px;
+  left: 0;
+  padding: 0 81px;
+  display: flex; 
+  align-items: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0,1); 
+  }
+
+  .navbar img{
+  height: 40px;
   }
 
   .navbar-links {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  margin-left: auto;
+  gap: 40px;
   }
 
   .navbar-links a {
   color: white;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 500;
   text-decoration: none;
-  font-size: 25px;
-  line-height: 100%;
-  margin-right: 60px;
-  }
-  .navbar-links a:last-child {
-  margin-right: 0;
+  font-size: 20px;
+  font-family: 'Josefine Slab', serif;
   }
   
-  /*container com blocos e botões*/
+  /*container com texto e botões*/
   .form-container {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: rgba(217, 217, 217, 1);
     width: 466px;
     max-height: 642px;
+    top:227px;
+    left: 122px;
     border-radius: 35px;
-    z-index: 100;
+    padding: 30px;
+    z-index: 5;
     }
-
-    .bloco {
-    background-color: white;
-    text-align: center;
-    max-width: 345px;
-    max-height: 76px;
-    padding: 20px;
-    margin-top: 30px;
-    justify-content: space-between;
-    border-radius: 5px;
-    z-index: 1000;
-    }
-
-    .botao-seta {
-    display: flex;
-    justify-items: flex-start;
-    color:black;
-    max-height: 76px;
-    font-family: 'Jura', sans-serif;
-    font-size: 18px;
-    padding: 12px 90px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    }
-
-    .bloco2 {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: rgba(104, 105, 49, 1);
-    font-family: 'Jura', sans-serif;
-    border: none;
-    z-index: 1000;
-    }
-
-    .botao-enviar {
-    color: white;
-    font-family: 'Jura', sans-serif;
-    border: none;
-    padding: 12px 90px;
-    padding-top: 30px;
-    border-radius: 30px;
-    font-weight: 700;
-    background-color: rgba(104, 105, 49, 1);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
   
+    .form-container label {
+      font-size: 18px;
+      font-family: 'Jura', serif;
+      text-align: left;
+      margin: 10px 0 5px;
+      width: 100%;
+      padding-left: 15px;
+    }
+
+    .dropdown-box {
+      width: 345px;
+      height: 76px;
+      background-color: white;
+      border-radius: 15px;
+      margin: 10px auto;
+      padding: 0 20px;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      justify-content: space-between;
+      font-family: 'Jura', sans-serif;
+      font-size: 18px;
+      color: black;
+      position: relative;
+    }
+
+    .dropdown-icone {
+      position: absolute;
+      width: 30px;
+      height:18px;
+      object-fit: contain;
+      flex-shrink: 0;
+      display: inline-block;
+      z-index: 10;
+    }
+
+    .button {
+      display: block;
+      width: 345px;
+      height: 76px;
+      background-color: rgba(104, 105, 49, 1);
+      color: white;
+      border-radius: 15px;
+      font-family: 'Jura', serif;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 76px;
+      text-decoration: none;
+      margin: 30px auto 0 auto;
+      cursor: pointer;
+    }
+

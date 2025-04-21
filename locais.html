@@ -10,45 +10,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
 <!--link CSS-->
 <link href="locais.css" rel="stylesheet">
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-     <!--Header e navbar-->
-     <header class="header">
-        <div class="header-img-container">
-            <img src= "Imagens/pexels-alex-andrews-271121-1203808 2.png" alt="Imagem de fundo" class="header-img-container">
+     <!--Header e imagem de fundo-->
+     <div class="header">
+            <img src= "Imagens/pexels-alex-andrews-271121-1203808 2.png" alt="Imagem de fundo">
+    <!--Navbar e navlinks-->
+        <div class="navbar">
+            <img src="Imagens/lines-leaning-solid 1-2.png" alt="Logo">
+            <div class="navbar-links">
+                <a href="#acomodacao">ACOMODAÇÃO</a>
+                <a href="locais.html">LOCAIS</a>
+                <a href="#blog">BLOG</a>
+                <a href="#sobre">CONTACTOS</a>
+            </div>
         </div>
-        <nav class="navbar">
-            <div class="navbar-container">
-                <div class="navbar-logo">
-                    <img src="Imagens/lines-leaning-solid 1-2.png" alt="Logo"/>
-            </div>
-                <div class="navbar-links">
-                    <a href="#acomodacao">ACOMODAÇÃO</a>
-                    <a href="locais.html">LOCAIS</a>
-                    <a href="#blog">BLOG</a>
-                    <a href="#sobre">CONTACTOS</a>
-                </div>
-            </div>
     <!--Secção container botões-->
-    <div class="container form-container">
-            <div class="grupo-botoes">
-                <p class="text-label">Escolha o país</p>
-                <div class="bloco">
-                    <button class="btn dropdown-toggle botão-seta" type="button">país</button>
+        <div class="form-container">
+            <label for="pais">Escolha o país:</label>
+            <div class="dropdown-box">
+                <span>país</span>
+                <img src="Imagens/Vector-4.png" alt="Seta" class="dropdown-icone">
             </div>
-                <p class="text-label">Escolha a cidade</p>
-                <div class="bloco">
-                    <button class="btn dropdown-toggle botão-seta" type="button">cidade</button>
+            <label for="cidade">Escolha a cidade:</label>
+            <div class="dropdown-box">
+                <span>cidade</span>
+                <img src="Imagens/Vector-4.png" alt="Seta" class="dropdown-icone">
             </div>
-                <div class="bloco2">
-                    <button class="btn botao-enviar" type="submit">Ver</button>
-            </div>
+            <a href="locais2.html" class="button">Ver</a>
+          </div>
         </div>
-    </div>
-</div>
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-</body> 
+</body>
 </html>
