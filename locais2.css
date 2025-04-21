@@ -79,7 +79,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 50px;
+    gap: 170px;
     margin-top: 215px;
     margin-left: 122px;
     z-index: 10;
@@ -148,7 +148,7 @@
     .blocos-direita  {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
     }
     
     .imagem-wrapper  {
@@ -156,6 +156,7 @@
         height: 363px;
         border-radius: 10px;
         overflow: hidden;
+        position: relative;
     }
 
     .imagem-wrapper img {
@@ -163,6 +164,7 @@
         height: 100%;
         object-fit: cover;
         display: block;
+        border-radius: 10px;
     }
 
     .bloco-texto {
