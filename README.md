@@ -8,15 +8,15 @@ Tecnologia usada: Html, CSS e bootstrap
 Funcionalidades: 
 - Estrutura multipágina com navegação entre secções e páginas.
 - Layout responsivo adaptado a diferentes dispositivos.
-- Utilização de HTML semântico e boas práticas de CSS.
-- Estilo visual alinhado com o design solicitado.
+- Utilização de HTML e boas práticas de CSS.
+- Estilo visual o mais fiel possivel ao design solicitado.
 
 Leitura:
 - Iniciar em index.html (styles.css), explorando entre os diferentes blocos (locais, acomodação, blog,).
 - Passar para a landing page pageacomodacao.html (acomodação.css);
 - Clicar no +info do primeiro card e ver a página modal.html que simula um pop-up.
 - Seguir para locais.html e locais2.html (e ficheiros css respetivamente locais.css e locais2.css);
-- Continuar em contactos.html e contactosalert.html (ficheiros contactos.css e contactosalert.css);
+- Continuar em pagecontactos.html e pagecontactosalert.html (ficheiros pagecontactos.css e pagecontactosalert.css);
 
 Notas Técnicas:
 
@@ -29,6 +29,6 @@ Bibliografia:
 
 Nota pessoal: 
 
-Este projeto foi um verdadeiro desafio. No início, tropecei bastante — e foi graças à biblioteca sugerida e a uma ajudinha inteligente (chatgtp) que consegui avançar.
-Com prática, comecei a dominar melhor HTML e CSS, a entender os elementos e o seu comportamento. Ainda tenho muito para aprender, mas dei o meu melhor para entregar algo sólido e fiel ao pedido.
+Este projeto foi um verdadeiro desafio. No início, tropecei bastante — e foi graças à biblioteca sugerida e mais alguma exploração, bem como a uma ajudinha inteligente (chatgtp) que consegui avançar e entregar algo que me deixa satisfeita.
+Com prática, comecei a dominar melhor HTML e CSS, a entender os elementos e o seu comportamento. Ainda tenho muito para aprender, mas dei o meu melhor para entregar algo sólido e fiel ao pedido. Não foi possível sem suor e lágrimas, mas valeu a pena porque, independentemente da nota, fiquei com o sentimento de dever cumprido.
 
