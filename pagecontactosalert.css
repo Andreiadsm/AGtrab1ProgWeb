@@ -204,11 +204,14 @@
   }
   /*simular popup*/
   .popup {
+    background-color: white;
+    color: white;
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 35px;
     top: 68px;
     left: 349px;
     width: 741px;
@@ -216,7 +219,7 @@
     z-index: 3000;
     }
 
-    .popup-text {
+    .popup-texto {
         color: black;
         font-family: 'Jura', sans-serif;
         font-size: 22px;
@@ -225,9 +228,12 @@
     }
 
     .popup-button {
-        width:265px;
-        height:59px;
-        background-color: blue;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width:265.1px;
+        height:59.1px;
+        background-color: rgba(97, 178, 245, 1);
         color: white;
         border-radius: 35px;
         font-size: 18px;

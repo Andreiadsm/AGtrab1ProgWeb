@@ -23,6 +23,9 @@ Notas Técnicas:
 A IA foi usada como apoio estratégico na resolução de erros e aperfeiçoamento do código.
 O projeto seguiu os requisitos propostos e deu especial atenção à organização do código e à responsividade.
 Algumas decisões foram tomadas com foco na simplicidade e na clareza do conteúdo.
+Como ainda não tenho conhecimentos suficientes de javascript optei por não usar.
+
+Bibliografia:
 
 Nota pessoal: 
 
