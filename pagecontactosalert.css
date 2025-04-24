@@ -106,57 +106,6 @@
     z-index:0;
   }
   
-  /*formulario*/
-  .form-container {
-    position: absolute;
-    top: 207px;
-    left: 187px;
-    width: 467px;
-    height: 700px;
-    background-color: black;
-    border-radius: 30px;
-    padding: 30px;
-    z-index: 2;
-  }
-  
-  .form-container label {
-    font-family: 'Jura', sans-serif;
-    font-weight: 700;
-    color: white;
-    font-size: 20px;
-  }
-  
-  .campo {
-    background-color: white;
-    border-radius: 15px;
-    width: 338px;
-    height: 76px;
-    padding-left: 15px;
-    margin-bottom: 20px;
-    font-family: 'Jura', sans-serif;
-  }
-  
-  textarea.campo {
-    height: 161px;
-    resize: none;
-  }
-  
-  /*botão enviar*/
-  .botao-enviar{
-    font-family: 'Jura', sans-serif;
-    color: white;
-    text-decoration: none;
-    margin: 30px 0;
-    padding: 10px 155px;
-    border: 2px solid white;
-    border-radius: 30px;
-    background-color: black;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    }
   
   /*Quote*/
   .quote{
@@ -189,7 +138,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 2000;
 }
   .popup {
@@ -202,7 +151,8 @@
     align-items: center;
     border-radius: 35px;
     top: 68px;
-    left: 349px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 741px;
     height: 192px;
     z-index: 3000;
@@ -224,15 +174,16 @@
     }
 
     .popup-button {
-        display: inline-flex;
+        display: inline-block;
         align-items: center;
         justify-content: center;
-        width:265.1px;
-        height:59.1px;
+        width: 265.1px;
+        height: 59.1px;
         background-color: rgba(97, 178, 245, 1);
         color: white;
         border-radius: 35px;
         font-size: 18px;
+        margin-top: 20px;
         text-align: center;
         line-height: 59px;
         text-decoration: none;
