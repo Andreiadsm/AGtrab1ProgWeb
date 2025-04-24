@@ -16,7 +16,8 @@ Leitura:
 - Passar para a landing page pageacomodacao.html (acomodação.css);
 - Clicar no +info do primeiro card e ver a página modal.html que simula um pop-up.
 - Seguir para locais.html e locais2.html (e ficheiros css respetivamente locais.css e locais2.css);
-- Continuar em pagecontactos.html e pagecontactosalert.html (ficheiros pagecontactos.css e pagecontactosalert.css respetivamente);
+- Continuar em pagecontactos.html e pagecontactosalert.html (ficheiros pagecontactos.css e pagecontactosalert.css respetivamente).
+
 
 Notas Técnicas:
 O projeto seguiu os requisitos propostos e deu atenção à organização do código e também à responsividade.
@@ -27,8 +28,11 @@ https://www.w3schools.com/css/css_text.asp
 https://www.w3schools.com/css/css_font_google.asp
 https://www.w3schools.com/cssref/css3_pr_box-sizing.php 
 https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+https://www.w3schools.com/howto/howto_css_navbar_image.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 https://css-tricks.com/almanac/properties/o/object-fit/
 https://www.w3schools.com/css/css3_object-fit.asp
 https://www.w3schools.com/howto/howto_css_center-vertical.asp
@@ -37,8 +41,11 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.php
 https://www.w3schools.com/css/css_rwd_intro.asp
 https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+
+Erros e tentativas:
+Durante todo o desenvolvimento, apliquei muitas vezes tentativa e erro. O ChatGPT foi útil para explicar sugerir correções e apontar boas práticas. Esse ciclo de testar, corrigir e adaptar ajudou-me a compreender melhor a lógica do HTML e CSS na prática.
 
 Nota pessoal: 
-
 Este projeto foi um verdadeiro desafio. No início, tropecei bastante — e foi graças à biblioteca sugerida e mais alguma exploração, bem como a uma ajudinha inteligente (chatgtp) que consegui avançar e entregar algo que me deixa satisfeita.
 Com prática, comecei a dominar melhor HTML e CSS, a entender os elementos e o seu comportamento. Ainda tenho muito para aprender, mas dei o meu melhor para entregar algo sólido e fiel ao pedido. Não foi possível sem suor e lágrimas, mas valeu a pena porque, independentemente da nota, fiquei com o sentimento de dever cumprido.
